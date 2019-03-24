@@ -1,0 +1,44 @@
+#home {background-color: black;
+        }
+h1     {color: white;
+        font-size: 100px;
+        text-align: center;
+        padding: 20px;
+        }
+
+#bio {color: black;
+      margin-left: 20px;
+}
+
+.row {margin-bottom: 20px
+    }
+#restaurant1 {background-color: grey;
+              padding: 10px
+    }
+
+#restaurant2 {background-color: yellow;
+              padding: 10px;
+        }
+
+#restaurant3 {background-color: grey;
+              padding: 10px;
+            }
+
+#restaurant4 {background-color: yellow;
+              padding: 10px;
+                }
+
+#restaurant5 {background-color: grey;
+              padding: 10px;
+                    }
+
+#restaurant6 {background-color: yellow;
+              padding: 10px
+                        }
+.contact {background: black;
+    }
+
+.social-logo {width: 100px;
+
+
+}
