@@ -15,33 +15,33 @@ body {
 .row {margin-bottom: 20px
     }
 
-#restaurant1 {background-color: grey;
+#restaurant1 {background-color: white;
               padding: 10px
     }
 
-#restaurant2 {background-color: yellow;
+#restaurant2 {background-color: #F8F8F8;
               padding: 10px;
         }
 
-#restaurant3 {background-color: grey;
+#restaurant3 {background-color: white;
               padding: 10px;
             }
 
-#restaurant4 {background-color: yellow;
+#restaurant4 {background-color: #F8F8F8;
               padding: 10px;
                 }
 
-#restaurant5 {background-color: grey;
+#restaurant5 {background-color: white;
               padding: 10px;
                     }
 
-#restaurant6 {background-color: yellow;
+#restaurant6 {background-color: #F8F8F8;
               padding: 10px
                         }
-.contact {background: black;
-    }
 
-.social-logo {width: 100px;
+
+.social-logo {width: 50px;
+              border-radius: 20px
 }
 
 body, html {
