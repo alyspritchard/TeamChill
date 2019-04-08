@@ -18,7 +18,7 @@ body{
     }
 
     /* Styling to be identical for all restaurants */
-#restaurant-details {background-color: rgb(167, 198, 236)
+#restaurant-details {background-color: rgb(234, 240, 242)
                     }
 
 #restaurant-image {background-color: white;
@@ -31,6 +31,7 @@ body{
                           padding-left: 30px;
                           padding-right: 50px;
                           padding-top:40px;
+                          padding-bottom: 40px;
                           margin-top: 30px;
                           margin-bottom: 30px;
                           text-align: left;
@@ -41,11 +42,15 @@ body{
                             line-height: 250%;
                             }
 
-.contact {background: black;
+#contact {padding: 50px;
     }
 
-.social-logo {width: 100px;
-}
+#social-logo {display: flex;
+              justify-content: space-around;
+              align-content: center;
+              align-self: baseline;
+              align-items: flex-end;
+              }
 
 body, html {
   height: 100%;
