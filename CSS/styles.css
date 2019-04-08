@@ -1,5 +1,7 @@
-body {
-      font-family: 'Source Code Pro', monospace;
+/* Font from Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+    font-family: 'Montserrat'
 }
 
 .title  {color: white;
@@ -15,29 +17,30 @@ body {
 .row {margin-bottom: 20px
     }
 
-#restaurant1 {background-color: grey;
-              padding: 10px
-    }
-
-#restaurant2 {background-color: yellow;
-              padding: 10px;
-        }
-
-#restaurant3 {background-color: grey;
-              padding: 10px;
-            }
-
-#restaurant4 {background-color: yellow;
-              padding: 10px;
-                }
-
-#restaurant5 {background-color: grey;
-              padding: 10px;
+    /* Styling to be identical for all restaurants */
+#restaurant-details {background-color: rgb(167, 198, 236)
                     }
 
-#restaurant6 {background-color: yellow;
-              padding: 10px
-                        }
+#restaurant-image {background-color: white;
+                    padding-left: 50px;
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                    }
+
+#restaurant-description {background-color: white;
+                          padding-left: 20px;
+                          padding-right: 50px;
+                          padding-top:40px;
+                          margin-top: 30px;
+                          margin-bottom: 30px;
+                          text-align: left;
+                          letter-spacing: normal;
+                          line-height: normal;
+                          }
+                          h2{
+                            line-height: 250%;
+                            }
+
 .contact {background: black;
     }
 
