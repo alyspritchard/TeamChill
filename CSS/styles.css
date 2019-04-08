@@ -4,15 +4,30 @@ body{
     font-family: 'Montserrat'
 }
 
-.title  {color: white;
+.title  {
+        color: white;
         font-size: 100px;
         padding-top: 250px;
         }
 
-.bio    {color: white;
+.bio    {
+        color: white;
         font-size: 30px;
         padding-bottom: 30px;
         }
+
+/* About us page styling */
+.about_title  {
+              color: white;
+              font-size: 100px;
+              padding-top: 220px;
+              }
+
+.about_bio    {
+              color: white;
+              font-size: 30px;
+              padding-bottom: 30px;
+              }
 
 .row {margin-bottom: 20px
     }
@@ -54,6 +69,19 @@ body, html {
 .bg {
   /* The image used */
   background-image: url("bg_image2.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg_about {
+  /* The image used */
+  background-image: url("about_bg3.jpg");
 
   /* Full height */
   height: 100%;
