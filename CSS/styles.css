@@ -32,8 +32,13 @@ body{
 .row {margin-bottom: 20px
     }
 
+ /* Styling Restaurant Menu */
+#restaurant_menu {
+                  padding-top: 390px
+}
+
     /* Styling to be identical for all restaurants */
-#restaurant-details {background-color: rgb(234, 240, 242)
+#restaurant-details {
                     }
 
 #restaurant-image {background-color: white;
@@ -53,12 +58,17 @@ body{
                           letter-spacing: normal;
                           line-height: normal;
                           }
-                          h2{
-                            line-height: 250%;
-                            }
+h2 {
+    line-height: 250%;
+    }
 
 #contact {padding: 50px;
+          color: white;
     }
+
+a {
+    color: inherit;
+}
 
 #social-logo {display: flex;
               justify-content: space-around;
@@ -71,19 +81,7 @@ body, html {
   height: 100%;
 }
 
-.bg {
-  /* The image used */
-  background-image: url("bg_image2.jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
+/* About Page Background */
 .bg_about {
   /* The image used */
   background-image: url("about_bg3.jpg");
@@ -95,6 +93,15 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* Main Page Background */
+.bg {
+      background: url("bg_image2.jpg") no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
 }
 
 #navbar {
