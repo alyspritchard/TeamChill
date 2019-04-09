@@ -58,9 +58,9 @@ body{
                           letter-spacing: normal;
                           line-height: normal;
                           }
-h2 {
-    line-height: 250%;
-    }
+#restaurant-description.h2 {
+                            line-height: 250%;
+                            }
 
 #contact {padding: 50px;
           color: white;
