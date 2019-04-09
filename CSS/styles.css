@@ -1,7 +1,5 @@
-/* Font from Google fonts*/
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-body{
-    font-family: 'Montserrat'
+body {
+      font-family: 'Source Code Pro', monospace;
 }
 
 .title  {
@@ -32,43 +30,46 @@ body{
 .row {margin-bottom: 20px
     }
 
-    /* Styling to be identical for all restaurants */
-#restaurant-details {background-color: rgb(234, 240, 242)
-                    }
-
-#restaurant-image {background-color: white;
-                    padding-left: 50px;
-                    margin-top: 30px;
-                    margin-bottom: 30px;
-                    }
-
-#restaurant-description {background-color: white;
-                          padding-left: 30px;
-                          padding-right: 50px;
-                          padding-top:40px;
-                          padding-bottom: 40px;
-                          margin-top: 30px;
-                          margin-bottom: 30px;
-                          text-align: left;
-                          letter-spacing: normal;
-                          line-height: normal;
-                          }
-                          h2{
-                            line-height: 250%;
-                            }
-
-#contact {padding: 50px;
+#restaurant1 {background-color: grey;
+              padding: 10px
     }
 
-#social-logo {display: flex;
-              justify-content: space-around;
-              align-content: center;
-              align-self: baseline;
-              align-items: flex-end;
-              }
+#restaurant2 {background-color: yellow;
+              padding: 10px;
+        }
 
-body, html {
-  height: 100%;
+#restaurant3 {background-color: grey;
+              padding: 10px;
+            }
+
+#restaurant4 {background-color: yellow;
+              padding: 10px;
+                }
+
+#restaurant5 {background-color: grey;
+              padding: 10px;
+                    }
+
+#restaurant6 {background-color: yellow;
+              padding: 10px
+                        }
+.contact {background: black;
+    }
+
+.social-logo {width: 100px;
+}
+
+.zoom {
+  padding: 0px;
+  background-color: yellow;
+  transition: transform .4s; /* Animation */
+  width: 450px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .bg {
