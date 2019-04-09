@@ -52,19 +52,6 @@ body{
               align-items: flex-end;
               }
 
-              .zoom {
-                padding: 0px;
-                background-color: yellow;
-                transition: transform .4s; /* Animation */
-                width: 450px;
-                height: 300px;
-                margin: 0 auto;
-              }
-
-              .zoom:hover {
-                transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-              }
-              
 body, html {
   height: 100%;
 }
